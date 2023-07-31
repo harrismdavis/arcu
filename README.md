@@ -2,7 +2,7 @@
 Find representative subpopulations in single cell imaging data. 
 ​
 ## Introduction
-Lazily named for its inputs, ARCU is a simple algorithm for finding coordinates in single-cell imaging data where measured features are relatively variable. This is a useful task for finding representative images for publication that illustrate difference in cell types. ARCU finds regions in an image where cells are different; in other words, it finds regions where at least one cell is above a threshold and at least one cell is below a threshold for features of interest. Thresholds are given by:
+ARCU is a simple algorithm for finding coordinates in single-cell imaging data where measured features are relatively variable. This is a useful task for finding representative images for publication that illustrate difference in cell types. ARCU finds regions in an image where cells are different; in other words, it finds regions where at least one cell is above a threshold and at least one cell is below a threshold for features of interest. Thresholds are given by:
 
     mu + u*sig
     mu - u*sig
