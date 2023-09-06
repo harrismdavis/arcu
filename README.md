@@ -34,8 +34,8 @@ A = pandas.read_csv('dir/file.csv')
 Then execute Arcu using
 
 ```python
-import arcu.arcu
-centroids = arcu.arcu(A,r,c,u)
+import arcu.arcu as rq
+centroids = rq.arcu(A,r,c,u)
 ```
 
 where 
